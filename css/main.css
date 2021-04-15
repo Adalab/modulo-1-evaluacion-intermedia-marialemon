@@ -41,13 +41,13 @@ header {
 
 main {
   background-color: var(--main-color);
-  height: 100%;
 }
 
 .container {
   display: flex;
   align-items: center;
   justify-content: center;
+  height: 79vh;
 }
 
 .container .claim {
