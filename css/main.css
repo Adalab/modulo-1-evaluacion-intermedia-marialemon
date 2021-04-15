@@ -19,8 +19,10 @@ header {
   text-align: center;
 
   display: flex;
-  flex-flow: column wrap;
+  flex-flow: column nowrap;
   gap: 0.5rem;
+
+  height: 20vh;
 }
 
 .name-of-company {
@@ -41,13 +43,15 @@ header {
 
 main {
   background-color: var(--main-color);
+  height: 80vh;
 }
 
 .container {
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 79vh;
+
+  height: 100%;
 }
 
 .container .claim {
