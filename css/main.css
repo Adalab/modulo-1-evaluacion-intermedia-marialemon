@@ -5,7 +5,6 @@
   list-style: none;
   text-decoration: none;
   font-size: 16px;
-  outline: thin solid red;
 }
 
 :root {
@@ -20,9 +19,9 @@ header {
 
   display: flex;
   flex-flow: column nowrap;
-  gap: 0.5rem;
+  gap: 0.8rem;
 
-  height: 20vh;
+  height: 22vh;
 }
 
 .name-of-company {
@@ -43,7 +42,7 @@ header {
 
 main {
   background-color: var(--main-color);
-  height: 80vh;
+  height: 78vh;
 }
 
 .container {
@@ -71,5 +70,11 @@ main {
     flex-flow: row wrap;
     align-items: center;
     justify-content: space-between;
+
+    height: 17vh;
+  }
+
+  main {
+    height: 83vh;
   }
 }
