@@ -4,6 +4,7 @@
   margin: 0;
   list-style: none;
   text-decoration: none;
+  font-size: 16px;
   outline: thin solid red;
 }
 
@@ -13,11 +14,37 @@
   font-family: "Rubik", sans-serif;
 }
 
+header {
+  padding: 1rem;
+  text-align: center;
+
+  display: flex;
+  flex-flow: column wrap;
+  gap: 0.5rem;
+}
+
 .name-of-company {
   display: none;
+}
+
+.main-menu .nav-links {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.main-menu .nav-links a {
+  text-transform: uppercase;
+  color: #4a4a4a;
 }
 
 .container {
   background-color: var(--main-color);
   color: white;
+}
+
+.container .claim {
+  font-size: 30px;
+  text-align: center;
 }
