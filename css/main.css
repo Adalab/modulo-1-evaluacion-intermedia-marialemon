@@ -1,0 +1,23 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  text-decoration: none;
+  outline: thin solid red;
+}
+
+:root {
+  --main-color: #3cdbc0;
+
+  font-family: "Rubik", sans-serif;
+}
+
+.name-of-company {
+  display: none;
+}
+
+.container {
+  background-color: var(--main-color);
+  color: white;
+}
