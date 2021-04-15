@@ -54,3 +54,13 @@ header {
   font-size: 30px;
   text-align: center;
 }
+
+@media (min-width: 768px) {
+  header {
+    padding: 20px 30px;
+
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: space-between;
+  }
+}
