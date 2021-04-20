@@ -14,42 +14,39 @@
 }
 
 header {
-  padding: 1rem;
+  background-color: white;
   text-align: center;
+  position: fixed;
+  width: 100%;
+  padding: 1rem 2rem;
 
   display: flex;
   flex-flow: column nowrap;
-  gap: 0.8rem;
-
-  height: 22vh;
-}
-
-.name-of-company {
-  display: none;
+  gap: 1rem;
 }
 
 .main-menu .nav-links {
   display: flex;
   flex-flow: row wrap;
   justify-content: center;
-  gap: 2rem;
+  gap: 1rem;
 }
 
 .main-menu .nav-links a {
   text-transform: uppercase;
   color: #4a4a4a;
+  padding: 0.5rem 1rem;
 }
 
 main {
   background-color: var(--main-color);
-  height: 78vh;
+  height: 100vh;
 }
 
 .container {
   display: flex;
   align-items: center;
   justify-content: center;
-
   height: 100%;
 }
 
@@ -65,16 +62,12 @@ main {
 
 @media (min-width: 768px) {
   header {
-    padding: 20px 30px;
-
     flex-flow: row wrap;
     align-items: center;
     justify-content: space-between;
-
-    height: 17vh;
   }
 
-  main {
-    height: 83vh;
+  .container .claim {
+    font-size: 40px;
   }
 }
